@@ -5,6 +5,7 @@ This python script automatically sorts your files on the basis of the file exten
 1.  Sorts files by type (Documents, Images, Audio, Video, etc.)
 2.  Handles unknown file types by placing them in an 'Others' folder
 3.  Asks for confirmation before sorting begins
+4.  Undo the operations
 
 ## Supported File Types
 
@@ -28,12 +29,7 @@ git clone https://github.com/yourusername/file-organizer.git
 ```
 ### 2. Run the script
 ```bash
-python file_organiser.py
-```
-### 3. Follow the prompts
-```bash
-Enter the path of the folder that needs to be sorted : Folder_path
-Are you sure you want to begin file sorting? (y,n) : y
+streamlit run file_organiser.py
 ```
 
 
